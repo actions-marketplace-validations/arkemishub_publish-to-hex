@@ -1,0 +1,11 @@
+name: Publish package to Hex 📦
+description: "Publish package to Hex 📦"
+author: "Arkemis S.r.l."
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "package"
+  color: "gray-dark"
